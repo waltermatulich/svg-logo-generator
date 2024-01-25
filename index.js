@@ -40,7 +40,11 @@ async function createLogo() {
   shape.setColor(color);
 
   // Generate SVG content based on the chosen shape
-  const svgContent = shape.render();
+  const svgContent = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+      ${shape.render()}
+    </svg>
+  `;
 
   // Write SVG content to logo.svg file
   fs.writeFileSync('logo.svg', svgContent);
@@ -48,6 +52,7 @@ async function createLogo() {
   console.log('Generated logo.svg');
 }
 
-console.log('Script is running');
+
+console.log('Index is running');
 
 createLogo();
