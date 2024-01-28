@@ -12,3 +12,8 @@
 // {/* <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
 // <polygon points="150, 18 244, 182 56, 182" fill="Blue" />
 // </svg> */}
+
+// Yellow Circle
+// {/* <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+// <circle cx="150" cy="100" r="50" fill="Yellow" />
+// </svg> */}
